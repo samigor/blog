@@ -84,7 +84,7 @@
                   <ul>
                     @foreach ($tasks as $task)
                     <li>
-                      <a href="tasks/{{$task->id}}">
+                      <a href="{{$task->id}}">
                        {{$task->body}}
                       </a>
                      </li>
