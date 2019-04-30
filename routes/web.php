@@ -48,3 +48,7 @@ return view('tasks.show', compact('task'));
 /*Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');*/
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
